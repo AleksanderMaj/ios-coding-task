@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88714ED6295F38B700B558BA /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 88714ED5295F38B700B558BA /* SwiftUINavigation */; };
+		88714ED8295F3A6300B558BA /* HubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88714ED7295F3A6300B558BA /* HubView.swift */; };
+		8891DBE3295F6AB7004043F1 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891DBE2295F6AB7004043F1 /* Environment.swift */; };
+		8891DBE5295F6E86004043F1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891DBE4295F6E86004043F1 /* Networking.swift */; };
+		88EFF95A295E04C600A1067D /* DonkeyBikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFF959295E04C600A1067D /* DonkeyBikeApp.swift */; };
+		88EFF95E295E04C700A1067D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFF95D295E04C700A1067D /* Assets.xcassets */; };
+		88EFF961295E04C700A1067D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EFF960295E04C700A1067D /* Preview Assets.xcassets */; };
+		88EFF96B295E04C700A1067D /* DonkeyBikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFF96A295E04C700A1067D /* DonkeyBikeTests.swift */; };
+		88EFF975295E04C700A1067D /* DonkeyBikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFF974295E04C700A1067D /* DonkeyBikeUITests.swift */; };
+		88EFF977295E04C700A1067D /* DonkeyBikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFF976295E04C700A1067D /* DonkeyBikeUITestsLaunchTests.swift */; };
+		88EFF984295E054A00A1067D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFF983295E054A00A1067D /* MapView.swift */; };
+		88EFF986295E092700A1067D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EFF985295E092700A1067D /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88EFF967295E04C700A1067D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EFF94E295E04C600A1067D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EFF955295E04C600A1067D;
+			remoteInfo = DonkeyBike;
+		};
+		88EFF971295E04C700A1067D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EFF94E295E04C600A1067D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EFF955295E04C600A1067D;
+			remoteInfo = DonkeyBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88714ED7295F3A6300B558BA /* HubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubView.swift; sourceTree = "<group>"; };
+		8891DBE2295F6AB7004043F1 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		8891DBE4295F6E86004043F1 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		8891DBE6295F804C004043F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88EFF956295E04C600A1067D /* DonkeyBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonkeyBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFF959295E04C600A1067D /* DonkeyBikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonkeyBikeApp.swift; sourceTree = "<group>"; };
+		88EFF95D295E04C700A1067D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88EFF960295E04C700A1067D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88EFF966295E04C700A1067D /* DonkeyBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonkeyBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFF96A295E04C700A1067D /* DonkeyBikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonkeyBikeTests.swift; sourceTree = "<group>"; };
+		88EFF970295E04C700A1067D /* DonkeyBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonkeyBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EFF974295E04C700A1067D /* DonkeyBikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonkeyBikeUITests.swift; sourceTree = "<group>"; };
+		88EFF976295E04C700A1067D /* DonkeyBikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonkeyBikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88EFF983295E054A00A1067D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		88EFF985295E092700A1067D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88EFF953295E04C600A1067D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88714ED6295F38B700B558BA /* SwiftUINavigation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFF963295E04C700A1067D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFF96D295E04C700A1067D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88EFF94D295E04C600A1067D = {
+			isa = PBXGroup;
+			children = (
+				88EFF958295E04C600A1067D /* DonkeyBike */,
+				88EFF969295E04C700A1067D /* DonkeyBikeTests */,
+				88EFF973295E04C700A1067D /* DonkeyBikeUITests */,
+				88EFF957295E04C600A1067D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88EFF957295E04C600A1067D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EFF956295E04C600A1067D /* DonkeyBike.app */,
+				88EFF966295E04C700A1067D /* DonkeyBikeTests.xctest */,
+				88EFF970295E04C700A1067D /* DonkeyBikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88EFF958295E04C600A1067D /* DonkeyBike */ = {
+			isa = PBXGroup;
+			children = (
+				8891DBE6295F804C004043F1 /* Info.plist */,
+				88EFF959295E04C600A1067D /* DonkeyBikeApp.swift */,
+				88EFF983295E054A00A1067D /* MapView.swift */,
+				88714ED7295F3A6300B558BA /* HubView.swift */,
+				8891DBE2295F6AB7004043F1 /* Environment.swift */,
+				8891DBE4295F6E86004043F1 /* Networking.swift */,
+				88EFF985295E092700A1067D /* Models.swift */,
+				88EFF95D295E04C700A1067D /* Assets.xcassets */,
+				88EFF95F295E04C700A1067D /* Preview Content */,
+			);
+			path = DonkeyBike;
+			sourceTree = "<group>";
+		};
+		88EFF95F295E04C700A1067D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				88EFF960295E04C700A1067D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88EFF969295E04C700A1067D /* DonkeyBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				88EFF96A295E04C700A1067D /* DonkeyBikeTests.swift */,
+			);
+			path = DonkeyBikeTests;
+			sourceTree = "<group>";
+		};
+		88EFF973295E04C700A1067D /* DonkeyBikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88EFF974295E04C700A1067D /* DonkeyBikeUITests.swift */,
+				88EFF976295E04C700A1067D /* DonkeyBikeUITestsLaunchTests.swift */,
+			);
+			path = DonkeyBikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88EFF955295E04C600A1067D /* DonkeyBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFF97A295E04C700A1067D /* Build configuration list for PBXNativeTarget "DonkeyBike" */;
+			buildPhases = (
+				88EFF952295E04C600A1067D /* Sources */,
+				88EFF953295E04C600A1067D /* Frameworks */,
+				88EFF954295E04C600A1067D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonkeyBike;
+			packageProductDependencies = (
+				88714ED5295F38B700B558BA /* SwiftUINavigation */,
+			);
+			productName = DonkeyBike;
+			productReference = 88EFF956295E04C600A1067D /* DonkeyBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EFF965295E04C700A1067D /* DonkeyBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFF97D295E04C700A1067D /* Build configuration list for PBXNativeTarget "DonkeyBikeTests" */;
+			buildPhases = (
+				88EFF962295E04C700A1067D /* Sources */,
+				88EFF963295E04C700A1067D /* Frameworks */,
+				88EFF964295E04C700A1067D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EFF968295E04C700A1067D /* PBXTargetDependency */,
+			);
+			name = DonkeyBikeTests;
+			productName = DonkeyBikeTests;
+			productReference = 88EFF966295E04C700A1067D /* DonkeyBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88EFF96F295E04C700A1067D /* DonkeyBikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EFF980295E04C700A1067D /* Build configuration list for PBXNativeTarget "DonkeyBikeUITests" */;
+			buildPhases = (
+				88EFF96C295E04C700A1067D /* Sources */,
+				88EFF96D295E04C700A1067D /* Frameworks */,
+				88EFF96E295E04C700A1067D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EFF972295E04C700A1067D /* PBXTargetDependency */,
+			);
+			name = DonkeyBikeUITests;
+			productName = DonkeyBikeUITests;
+			productReference = 88EFF970295E04C700A1067D /* DonkeyBikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88EFF94E295E04C600A1067D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					88EFF955295E04C600A1067D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					88EFF965295E04C700A1067D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 88EFF955295E04C600A1067D;
+					};
+					88EFF96F295E04C700A1067D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 88EFF955295E04C600A1067D;
+					};
+				};
+			};
+			buildConfigurationList = 88EFF951295E04C600A1067D /* Build configuration list for PBXProject "DonkeyBike" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88EFF94D295E04C600A1067D;
+			packageReferences = (
+				88714ED4295F38B700B558BA /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+			);
+			productRefGroup = 88EFF957295E04C600A1067D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88EFF955295E04C600A1067D /* DonkeyBike */,
+				88EFF965295E04C700A1067D /* DonkeyBikeTests */,
+				88EFF96F295E04C700A1067D /* DonkeyBikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EFF954295E04C600A1067D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFF961295E04C700A1067D /* Preview Assets.xcassets in Resources */,
+				88EFF95E295E04C700A1067D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFF964295E04C700A1067D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFF96E295E04C700A1067D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88EFF952295E04C600A1067D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFF984295E054A00A1067D /* MapView.swift in Sources */,
+				88EFF95A295E04C600A1067D /* DonkeyBikeApp.swift in Sources */,
+				88714ED8295F3A6300B558BA /* HubView.swift in Sources */,
+				88EFF986295E092700A1067D /* Models.swift in Sources */,
+				8891DBE5295F6E86004043F1 /* Networking.swift in Sources */,
+				8891DBE3295F6AB7004043F1 /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFF962295E04C700A1067D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFF96B295E04C700A1067D /* DonkeyBikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EFF96C295E04C700A1067D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EFF975295E04C700A1067D /* DonkeyBikeUITests.swift in Sources */,
+				88EFF977295E04C700A1067D /* DonkeyBikeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88EFF968295E04C700A1067D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EFF955295E04C600A1067D /* DonkeyBike */;
+			targetProxy = 88EFF967295E04C700A1067D /* PBXContainerItemProxy */;
+		};
+		88EFF972295E04C700A1067D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EFF955295E04C600A1067D /* DonkeyBike */;
+			targetProxy = 88EFF971295E04C700A1067D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88EFF978295E04C700A1067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88EFF979295E04C700A1067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EFF97B295E04C700A1067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DonkeyBike/Preview Content\"";
+				DEVELOPMENT_TEAM = 554248M85F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DonkeyBike/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bike.donkey.DonkeyBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88EFF97C295E04C700A1067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DonkeyBike/Preview Content\"";
+				DEVELOPMENT_TEAM = 554248M85F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DonkeyBike/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bike.donkey.DonkeyBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88EFF97E295E04C700A1067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 554248M85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bike.donkey.DonkeyBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonkeyBike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DonkeyBike";
+			};
+			name = Debug;
+		};
+		88EFF97F295E04C700A1067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 554248M85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bike.donkey.DonkeyBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonkeyBike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DonkeyBike";
+			};
+			name = Release;
+		};
+		88EFF981295E04C700A1067D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 554248M85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bike.donkey.DonkeyBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonkeyBike;
+			};
+			name = Debug;
+		};
+		88EFF982295E04C700A1067D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 554248M85F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bike.donkey.DonkeyBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonkeyBike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88EFF951295E04C600A1067D /* Build configuration list for PBXProject "DonkeyBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFF978295E04C700A1067D /* Debug */,
+				88EFF979295E04C700A1067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFF97A295E04C700A1067D /* Build configuration list for PBXNativeTarget "DonkeyBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFF97B295E04C700A1067D /* Debug */,
+				88EFF97C295E04C700A1067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFF97D295E04C700A1067D /* Build configuration list for PBXNativeTarget "DonkeyBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFF97E295E04C700A1067D /* Debug */,
+				88EFF97F295E04C700A1067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EFF980295E04C700A1067D /* Build configuration list for PBXNativeTarget "DonkeyBikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EFF981295E04C700A1067D /* Debug */,
+				88EFF982295E04C700A1067D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88714ED4295F38B700B558BA /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88714ED5295F38B700B558BA /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88714ED4295F38B700B558BA /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 88EFF94E295E04C600A1067D /* Project object */;
+}
