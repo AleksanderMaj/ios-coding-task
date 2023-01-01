@@ -45,7 +45,6 @@ struct Hub: Decodable, Identifiable, Equatable {
         self.availableVehicles = availableVehicles.reduce(into: [:]) { result, x in
             VehicleType(rawValue: x.key).map { result[$0] = x.value }
         }
-
     }
 
     func availableCount(for vehicleType: VehicleType) -> Int {
