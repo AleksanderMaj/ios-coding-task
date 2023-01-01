@@ -143,7 +143,7 @@ extension MKCoordinateRegion {
         && cos((self.center.longitude - coordinate.longitude) * Double.pi / 180) > cos(self.span.longitudeDelta / 2.0 * Double.pi / 180)
     }
 
-    func subregionsByDividingInto(rows: Int, columns: Int) -> [MKCoordinateRegion] {
+    func dividedIntoSubregions(rows: Int, columns: Int) -> [MKCoordinateRegion] {
         var subregions = [MKCoordinateRegion]()
         for row in 0..<rows {
             for column in 0..<columns {
